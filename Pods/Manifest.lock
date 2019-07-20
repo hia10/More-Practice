@@ -1,0 +1,32 @@
+PODS:
+  - CollapsibleTableSectionViewController (2.0.1)
+  - ESTabBarController-swift (2.7)
+  - KYMenu (0.0.8)
+  - M13Checkbox (3.4.0)
+  - Presentr (1.9)
+
+DEPENDENCIES:
+  - CollapsibleTableSectionViewController (~> 2.0.1)
+  - ESTabBarController-swift
+  - KYMenu
+  - M13Checkbox
+  - Presentr
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CollapsibleTableSectionViewController
+    - ESTabBarController-swift
+    - KYMenu
+    - M13Checkbox
+    - Presentr
+
+SPEC CHECKSUMS:
+  CollapsibleTableSectionViewController: 40d97d684d870044522a0dc29b128a6acaaa99df
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  KYMenu: b5d2cc22884aedabb9ed01c15bad2fdf89b74d50
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+
+PODFILE CHECKSUM: b24b4ce8b063958a9f76f5e5132ac43907ec21f3
+
+COCOAPODS: 1.6.2

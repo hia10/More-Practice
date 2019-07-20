@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollapsibleTableSectionViewController" "${PODS_CONFIGURATION_BUILD_DIR}/ESTabBarController-swift" "${PODS_CONFIGURATION_BUILD_DIR}/KYMenu" "${PODS_CONFIGURATION_BUILD_DIR}/M13Checkbox" "${PODS_CONFIGURATION_BUILD_DIR}/Presentr"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KYMenu/KYMenu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/M13Checkbox/M13Checkbox.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Presentr/Presentr.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CollapsibleTableSectionViewController" -framework "CoreGraphics" -framework "ESTabBarController_swift" -framework "Foundation" -framework "KYMenu" -framework "M13Checkbox" -framework "Presentr" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

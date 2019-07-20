@@ -1,0 +1,1551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B5A174B0B4373D52EF8C66328DA36C /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362B51539A0CECCB9D99D62B007122C /* CoverVerticalAnimation.swift */; };
+		07C20DF1DB2B4667069DC2C9BD2D51E1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695929F60B2B462C5CABB9657691F39 /* AlertViewController.swift */; };
+		11B7F74A8152A3CA6E478C8183E6F37B /* KYMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940A57B47E424CB538DD7F176D369EB4 /* KYMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F212386585118EBACAD3E2E087AA9E /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5AFEED22953E6BB6EED520630A406 /* M13Checkbox-dummy.m */; };
+		1A6F6B694103274344F27631FCE6F5D0 /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CE232F1B41C6033E8253037379B12 /* ESTabBarItemBadgeView.swift */; };
+		1FCA582D4D82A9DE254643294D070EA4 /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26244DC7AB3C4B475069CC17898C553 /* PresentrShadow.swift */; };
+		21C38071E7DDD5FD23546728FF6067EE /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D091428B82C86B6031C66A6B669E794B /* Montserrat-Regular.ttf */; };
+		23F46ECFE2E9000D74E7C09EB31A40B8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B88D6FA4825A46F83D69E08946960 /* M13CheckboxCheckPathGenerator.swift */; };
+		248FA66AF24DD68A917323A0964C7ACD /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041ED3AA14094A3E32E2317E529466C /* M13CheckboxBounceController.swift */; };
+		2C6AE55E64AD971BEAF62807357EBF6A /* ESTabBarController-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F3E32A8BEC2F9FDC347FE5F3A6CAA4 /* ESTabBarController-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2A73CBD78C1442FF7F2535A31D1C8D /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E69B1A916DD46C2BFD5A7EC671580 /* M13CheckboxGestureRecognizer.swift */; };
+		2E97F4DDE05C97F41DA2B85D82A31912 /* ESTabBarController-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABEAC594DBEB57189B48A778DD88D4B /* ESTabBarController-swift-dummy.m */; };
+		351E76A17B83C7BEB68B00E7817AC0FA /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741ABA2F66D5C6071D2C5F64E230889 /* ESTabBarItem.swift */; };
+		38A9DAC9325B7541B811D4F09D534027 /* Pods-MorePractice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8145F816755114D1CB31B88A5F2042 /* Pods-MorePractice-dummy.m */; };
+		396466E86C0EBEA41FB87230AF5FD3FF /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF20190DA09F07B3DF89CA3337DA3B7 /* M13Checkbox+IB.swift */; };
+		3A5DA0241961D2E425D471327670B3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		40628F0AB93C74115A9A753A359B7799 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7E7E5D50F3253DC04ADABBE193DDF /* M13CheckboxController.swift */; };
+		41CBD1ADAFFF6471BE891D15ED78BB5E /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF073D3FFF14944174A027C7CD3ED7 /* CoverVerticalFromTopAnimation.swift */; };
+		429735F4B5A5D0C6E7F9E234A36C354A /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF2502179F075FC4D23AB4591160C0 /* CollapsibleTableViewHeader.swift */; };
+		4B0F7DABB7110455BB8F7F5C37A270F7 /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2BAC75F4B440FF0B73D27680B4B98 /* FlipHorizontalAnimation.swift */; };
+		4F1B28FEA34062EC5F2B03C468C3F90D /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5119462DEA70163EBB0B56DDF93622D1 /* M13CheckboxDotController.swift */; };
+		5122ADF16A57C1EC749DEE6B24788CF1 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479CAADEB64A7E17FFF715372C49B7E5 /* M13CheckboxFadeController.swift */; };
+		5A57F3E6E3DB86834095410FD4F8BFEE /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785140B2E8E1BC53D2ED6557B6476B1 /* ESTabBarItemContentView.swift */; };
+		6132DDECB5E70DF47A202258B011F387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */; };
+		67EF9ADCCD5F7211BC2F7EA64AF2E724 /* Presentr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016351B5126A5CE66E867E6860AA786 /* Presentr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C766C89C6EFD2963D5D2BE589B3021C /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A157DDE1205ACFC4AD39D028CC924EC4 /* TransitionType.swift */; };
+		73E90878A7157B57BEF3D1759F3BF9B9 /* KYMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D84D0FABDD306A6E34F9A0CC1876FE7 /* KYMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75037F89FB50C1B23C99E5107A2D6E79 /* KYMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AE777860864E5AF32316E92EA0198 /* KYMenu-dummy.m */; };
+		7524D2D58BBD70E7AD2B9426C54DE906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		7812FF081ECD2D44CAAC04E164B9ABDE /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C2567980CDF66B4464038BFC25EDC /* PresentrAnimation.swift */; };
+		79A379E22EC1171A4D27F87AA93C7494 /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D141300212B9AE09700F5577D1B13 /* CoverFromCornerAnimation.swift */; };
+		7CDE901F0B0C3C2E0126EADD94866ADF /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90065C72D88427053C79469E8981C1BA /* AlertViewController.xib */; };
+		7EA28BAB91C28416AF079D1BA154387C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BF3AEC5EDA14B819918CC4008D5B1 /* BackgroundView.swift */; };
+		82C4FAAE08D78F5AD0016C2CE54FBFE6 /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082066E910A90372DA1ECA903AE6C08D /* Presentr+Equatable.swift */; };
+		83ECD7BBB76510F75FBCD71CE2D68615 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A83360996FC6B9D6E9CDCC7567BDC53 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		871C1206BD2FC67D628F280FC2313B16 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B228FA8B163698F90F29277D83302 /* M13CheckboxPathGenerator.swift */; };
+		8B8E58E87DBB2F91606D4717455F3626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */; };
+		917AA0DAADA5D2DAB1F8134CD893618B /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5772B20D18874F3CAECEC059E43469 /* M13Checkbox.swift */; };
+		9642E4117EA611DA313F047A3A094970 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */; };
+		9AD538F13A135428124FCFC745463426 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C72873A482B45EDF79549356248EA /* M13CheckboxAnimationGenerator.swift */; };
+		9CAD5C5EBF456DF1168B6FDFC7FC8E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		9E645E8FBF1D852E3F5A382B3CCA3C90 /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB9BD6CFDE35A1CCEBF1E752161913 /* CrossDissolveAnimation.swift */; };
+		A1558C87BF159FF5DFE1E10772A93522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5B8C7799E20AD2BF356B6BD0D70B0 /* M13CheckboxExpandController.swift */; };
+		A1BED5C6A5B369F228A95A53116A28DE /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC86D68BB8D287E0A24098486AD1378 /* Presentr.swift */; };
+		A66FF1706CE041A88BCE01C7C1D78C43 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDC74C728AC8D7195E522A35D39A97 /* ESTabBar.swift */; };
+		B22FA6187924DAD7AD7F386DDC61A097 /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380105745622D480BE76AB46983678 /* KeyboardTranslation.swift */; };
+		B300BBC681EB779EE37206B65806A7A5 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F5BD717550B297A1851848FDC7D65D /* ESTabBarItemMoreContentView.swift */; };
+		B7CAEBE2F33EC8260D7C26D3BD874860 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 67C8A2CF36CC8225CAD5650E682E4C46 /* en.lproj */; };
+		B8750EBD2F4A090BC7E719B3F65C3A5B /* CollapsibleTableSectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1A45B013B84E09360248F6CCD69901 /* CollapsibleTableSectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC362B3A9684A28BD95FB3F2B2DFC44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */; };
+		BFD3585AC53DFF65A6EC447C5959F12C /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBF6EE04D05E6C6ADBBF77732645EF /* DefaultValues.swift */; };
+		C4EBFC45EF9A34311A2FC271603F68A6 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123058115CDCEFCD843E0244D84C7B04 /* M13CheckboxRadioPathGenerator.swift */; };
+		C612E13D3CA85870FE9D32D47A1A41CB /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DED4B8CDA21B96B48597A70646E94 /* ESTabBarItemContainer.swift */; };
+		C67F3B8404E57B382D8671D1FB0028B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		C694C6F696BDE2A3D20E07018D556B00 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78331773C562DCC62F107BE892703EA1 /* PresentationType.swift */; };
+		C6AB29089DB50F44BF8224A1F7AA45A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		C6F341D5350E2D8BFE2D07E07D889705 /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F556CAD3C33EB6E13BF94EBD94CA61E /* CoverHorizontalAnimation.swift */; };
+		C96CAF78228E4BEFB77219F2389003D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		CBDF47D0EEACE5D10619404D138ECB32 /* KYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF472C39E20E5CEE300A6EF48E220177 /* KYMenu.m */; };
+		CE84A0DE6848043BC3869AAABF8E1C81 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490788C3256C3BF1AD11A820531CD6FC /* SourceSansPro-Regular.ttf */; };
+		D2DE0B03765B1DC0E38E0837F2ECDA96 /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA819A2C97498203F9D64A87D2E6A84 /* PresentrController.swift */; };
+		D5E0D00C64622A75DCC53EC52853A148 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EB4546466BF446B69C9419BBE0284 /* M13CheckboxFillController.swift */; };
+		D9167552180D571CE9AB78AC9EF032FE /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255F3AB35E82E0A1565BE5C506DE4BD /* ModalCenterPosition.swift */; };
+		DE7654FD8D8E83DCBCD916FF8B48AAF7 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A622E057F091ED2F29365185214926 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		DFB2674501668A046CC3511B6F21939D /* Pods-MorePractice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C35E357082D68209A03EE4FF016BFC0 /* Pods-MorePractice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E277DD8316D4D9369B0C8F1C974D071B /* Presentr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F19CA9496DD89938CB94C230C0459C3E /* Presentr-dummy.m */; };
+		E5694861E9242B18FC619B1041BBCB46 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B32753342745B16A4D785D4AC9991 /* ESTabBarController.swift */; };
+		E5AA37D0DCE99073503B06AAC4BFB3F8 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098FA419D91112D38F52CA63ED64B56 /* M13CheckboxFlatController.swift */; };
+		E6EB0666ED96F5ECF52BA5D532D7B442 /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A0BBD023237A56635256D554CBFB7 /* ModalSize.swift */; };
+		E7612EB6D64ACA96593AB5AD2BE0A7DD /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 269B0B8EC76EDF47B19BB565CCC5899E /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FC575E9A135224C45815B5B12A1F60 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95A6E88185B59FF369016BDF77892 /* M13CheckboxSpiralController.swift */; };
+		ECEDE2975437697018E4960684EFBAFE /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20C368C50E6F051C47052C78137F2 /* M13CheckboxStrokeController.swift */; };
+		F3588F07B6530A383545B538FB31003F /* CollapsibleTableSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB05CFC9F584779FA49FCA1F70BA23 /* CollapsibleTableSectionViewController.swift */; };
+		F97E16462798F4E4962AB4C8D07E699E /* CollapsibleTableSectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD125D45BC8CDCDF2089E0E5F6BC243 /* CollapsibleTableSectionViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6D5972890DF957334AA59C29ACC0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD7CFC9FAF520FF3BBEC62E58C3A079;
+			remoteInfo = "ESTabBarController-swift";
+		};
+		54A2C8E67B95E53972B4C768E4B3C4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5752DD257FE266E67107B3EEA49B03C9;
+			remoteInfo = M13Checkbox;
+		};
+		E4D41D601D725772E7C244FBD9D1FA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068E160A88196B1414AE8C81CED03F68;
+			remoteInfo = Presentr;
+		};
+		F248F3AA839A678BFAA28CFB0F766DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33291D2923185A1B2702434D8FA85285;
+			remoteInfo = KYMenu;
+		};
+		FA850D28D6A666651C63B37890291AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE807673112A40049DB014FCFEC4C9CF;
+			remoteInfo = CollapsibleTableSectionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A79809A1F7931D7886D7C980E099D2 /* Presentr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Presentr.framework; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C72CBE1350219B5E4F832F7FDDC463 /* Pods-MorePractice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MorePractice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		082066E910A90372DA1ECA903AE6C08D /* Presentr+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Presentr+Equatable.swift"; path = "Presentr/Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		086B88D6FA4825A46F83D69E08946960 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		0CF03A6BFFB045CD49C2F81FF7D37AD1 /* Pods-MorePractice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MorePractice.modulemap"; sourceTree = "<group>"; };
+		0EF5B8C7799E20AD2BF356B6BD0D70B0 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		0F1A45B013B84E09360248F6CCD69901 /* CollapsibleTableSectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		11BDC74C728AC8D7195E522A35D39A97 /* ESTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBar.swift; path = Sources/ESTabBar.swift; sourceTree = "<group>"; };
+		123058115CDCEFCD843E0244D84C7B04 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		13E8245436C16C6F0088B3308F5941F7 /* KYMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYMenu-prefix.pch"; sourceTree = "<group>"; };
+		1695929F60B2B462C5CABB9657691F39 /* AlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = Presentr/AlertViewController.swift; sourceTree = "<group>"; };
+		1741ABA2F66D5C6071D2C5F64E230889 /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItem.swift; path = Sources/ESTabBarItem.swift; sourceTree = "<group>"; };
+		17736870BB87F32CAFEE6F90E1729A2A /* Presentr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentr.xcconfig; sourceTree = "<group>"; };
+		1B4432923E369C86C4DC0C83AD379E7C /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		1CD2BAC75F4B440FF0B73D27680B4B98 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipHorizontalAnimation.swift; path = Presentr/FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		1D61DE1BB9EA08AEE471AB2A943157F9 /* Pods-MorePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorePractice.debug.xcconfig"; sourceTree = "<group>"; };
+		1DD125D45BC8CDCDF2089E0E5F6BC243 /* CollapsibleTableSectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTableSectionViewController-dummy.m"; sourceTree = "<group>"; };
+		246A50D340C7D32700D833C2C13DC481 /* Pods-MorePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorePractice.release.xcconfig"; sourceTree = "<group>"; };
+		24F3E32A8BEC2F9FDC347FE5F3A6CAA4 /* ESTabBarController-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-umbrella.h"; sourceTree = "<group>"; };
+		269B0B8EC76EDF47B19BB565CCC5899E /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		304DED4B8CDA21B96B48597A70646E94 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContainer.swift; path = Sources/ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		366A0BBD023237A56635256D554CBFB7 /* ModalSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalSize.swift; path = Presentr/ModalSize.swift; sourceTree = "<group>"; };
+		370EF7B07A1233B2E35DE4A0986AFE22 /* KYMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYMenu.framework; path = KYMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371FF889CA5D38A2A34FC52CD7A54730 /* Presentr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-prefix.pch"; sourceTree = "<group>"; };
+		3A83360996FC6B9D6E9CDCC7567BDC53 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		4041ED3AA14094A3E32E2317E529466C /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		41380105745622D480BE76AB46983678 /* KeyboardTranslation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTranslation.swift; path = Presentr/KeyboardTranslation.swift; sourceTree = "<group>"; };
+		452CF91CF1AD4DBBD508E00FAD9BA5BB /* CollapsibleTableSectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		460AE777860864E5AF32316E92EA0198 /* KYMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYMenu-dummy.m"; sourceTree = "<group>"; };
+		479CAADEB64A7E17FFF715372C49B7E5 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		479D6440ACCDFE9E1E73EAE296530547 /* KYMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYMenu.xcconfig; sourceTree = "<group>"; };
+		490788C3256C3BF1AD11A820531CD6FC /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SourceSansPro-Regular.ttf"; path = "Presentr/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		5119462DEA70163EBB0B56DDF93622D1 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		57C20C368C50E6F051C47052C78137F2 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		58A622E057F091ED2F29365185214926 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		5A1EEFAAB0F6E56E73229DEADD00A342 /* CollapsibleTableSectionViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CollapsibleTableSectionViewController-Info.plist"; sourceTree = "<group>"; };
+		5E9CE232F1B41C6033E8253037379B12 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemBadgeView.swift; path = Sources/ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		5FD4DDB72AAF1AAA41BBDFE8270CB606 /* KYMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KYMenu-Info.plist"; sourceTree = "<group>"; };
+		66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6785140B2E8E1BC53D2ED6557B6476B1 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContentView.swift; path = Sources/ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		67C8A2CF36CC8225CAD5650E682E4C46 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Sources/en.lproj; sourceTree = "<group>"; };
+		6C35E357082D68209A03EE4FF016BFC0 /* Pods-MorePractice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MorePractice-umbrella.h"; sourceTree = "<group>"; };
+		6D08E772BE27600C20259AA82788D1B1 /* CollapsibleTableSectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTableSectionViewController.xcconfig; sourceTree = "<group>"; };
+		6EF0369C0BCE33C720E5BFFC4FE77EDD /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTabBarController_swift.framework; path = "ESTabBarController-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F556CAD3C33EB6E13BF94EBD94CA61E /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverHorizontalAnimation.swift; path = Presentr/CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		700C72873A482B45EDF79549356248EA /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		71B62C82A3F0A5AB75629D15F13EBA02 /* CollapsibleTableSectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollapsibleTableSectionViewController.modulemap; sourceTree = "<group>"; };
+		7255F3AB35E82E0A1565BE5C506DE4BD /* ModalCenterPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalCenterPosition.swift; path = Presentr/ModalCenterPosition.swift; sourceTree = "<group>"; };
+		728D141300212B9AE09700F5577D1B13 /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverFromCornerAnimation.swift; path = Presentr/CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		74B11219AB88F96BD9DCE72E8FAF4175 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		760AE21885469F2AAE5996814715EC0A /* KYMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYMenu.modulemap; sourceTree = "<group>"; };
+		765AB5C0028B7A6A0CDD83BCABC73382 /* Pods-MorePractice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorePractice-Info.plist"; sourceTree = "<group>"; };
+		78331773C562DCC62F107BE892703EA1 /* PresentationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationType.swift; path = Presentr/PresentationType.swift; sourceTree = "<group>"; };
+		78BBF6EE04D05E6C6ADBBF77732645EF /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		7A7E69B1A916DD46C2BFD5A7EC671580 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		7BF20190DA09F07B3DF89CA3337DA3B7 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		7D84D0FABDD306A6E34F9A0CC1876FE7 /* KYMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYMenu.h; path = KYMenu/KYMenu.h; sourceTree = "<group>"; };
+		7DA819A2C97498203F9D64A87D2E6A84 /* PresentrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrController.swift; path = Presentr/PresentrController.swift; sourceTree = "<group>"; };
+		831BF3AEC5EDA14B819918CC4008D5B1 /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Presentr/BackgroundView.swift; sourceTree = "<group>"; };
+		8362B51539A0CECCB9D99D62B007122C /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalAnimation.swift; path = Presentr/CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+		88CF7896D4A15441A6193F93EC5A7328 /* Pods_MorePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MorePractice.framework; path = "Pods-MorePractice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABEAC594DBEB57189B48A778DD88D4B /* ESTabBarController-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTabBarController-swift-dummy.m"; sourceTree = "<group>"; };
+		8AC5AFEED22953E6BB6EED520630A406 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		8C8145F816755114D1CB31B88A5F2042 /* Pods-MorePractice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MorePractice-dummy.m"; sourceTree = "<group>"; };
+		90065C72D88427053C79469E8981C1BA /* AlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AlertViewController.xib; path = Presentr/AlertViewController.xib; sourceTree = "<group>"; };
+		9016351B5126A5CE66E867E6860AA786 /* Presentr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-umbrella.h"; sourceTree = "<group>"; };
+		90F95A6E88185B59FF369016BDF77892 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		938B32753342745B16A4D785D4AC9991 /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarController.swift; path = Sources/ESTabBarController.swift; sourceTree = "<group>"; };
+		940A57B47E424CB538DD7F176D369EB4 /* KYMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYMenu-umbrella.h"; sourceTree = "<group>"; };
+		95C7E7E5D50F3253DC04ADABBE193DDF /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		969B99D0CA7E69847AEC52C41B7C8FFB /* CollapsibleTableSectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollapsibleTableSectionViewController.framework; path = CollapsibleTableSectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999EB4546466BF446B69C9419BBE0284 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1B69E4C99CD847FAD998F7E8F6A9D0 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		A157DDE1205ACFC4AD39D028CC924EC4 /* TransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Presentr/TransitionType.swift; sourceTree = "<group>"; };
+		A2F7191B9F5102693A283F6B95B17831 /* ESTabBarController-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-prefix.pch"; sourceTree = "<group>"; };
+		B4364E65B4711E6BC96357E7863C77B5 /* Pods-MorePractice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorePractice-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6F5BD717550B297A1851848FDC7D65D /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemMoreContentView.swift; path = Sources/ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		D091428B82C86B6031C66A6B669E794B /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Montserrat-Regular.ttf"; path = "Presentr/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D0BF073D3FFF14944174A027C7CD3ED7 /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalFromTopAnimation.swift; path = Presentr/CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		D9746A6051DBB340605A4ADCC01EB8B7 /* ESTabBarController-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESTabBarController-swift-Info.plist"; sourceTree = "<group>"; };
+		DDC86D68BB8D287E0A24098486AD1378 /* Presentr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentr.swift; path = Presentr/Presentr.swift; sourceTree = "<group>"; };
+		DE99BAAEFA010A62A5E43B671F361F7E /* ESTabBarController-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ESTabBarController-swift.modulemap"; sourceTree = "<group>"; };
+		DFD29183A46C3AA36674D202CD497A66 /* Pods-MorePractice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorePractice-frameworks.sh"; sourceTree = "<group>"; };
+		E098FA419D91112D38F52CA63ED64B56 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		E1AB05CFC9F584779FA49FCA1F70BA23 /* CollapsibleTableSectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableSectionViewController.swift; path = CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.swift; sourceTree = "<group>"; };
+		E26244DC7AB3C4B475069CC17898C553 /* PresentrShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrShadow.swift; path = Presentr/PresentrShadow.swift; sourceTree = "<group>"; };
+		E9650A07CE7876B64E4395D31613CDFE /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		EA5C2567980CDF66B4464038BFC25EDC /* PresentrAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrAnimation.swift; path = Presentr/PresentrAnimation.swift; sourceTree = "<group>"; };
+		EC5772B20D18874F3CAECEC059E43469 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		EF472C39E20E5CEE300A6EF48E220177 /* KYMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYMenu.m; path = KYMenu/KYMenu.m; sourceTree = "<group>"; };
+		F19CA9496DD89938CB94C230C0459C3E /* Presentr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentr-dummy.m"; sourceTree = "<group>"; };
+		F8D7EB9427C8F713618C9E9383857A18 /* ESTabBarController-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESTabBarController-swift.xcconfig"; sourceTree = "<group>"; };
+		FBF4D6637B7392AB9FBEF130D623D84B /* Presentr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Presentr-Info.plist"; sourceTree = "<group>"; };
+		FC554EA22C358A45798EA8E9030AD2D3 /* Presentr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentr.modulemap; sourceTree = "<group>"; };
+		FCBB9BD6CFDE35A1CCEBF1E752161913 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossDissolveAnimation.swift; path = Presentr/CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		FDEEE8A296A2524EDBC0507A6570FAFE /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1B228FA8B163698F90F29277D83302 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		FFBF2502179F075FC4D23AB4591160C0 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewHeader.swift; path = CollapsibleTableSectionViewController/CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49935B515F26E1F17C25699C3AC7950A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5DA0241961D2E425D471327670B3C1 /* Foundation.framework in Frameworks */,
+				8B8E58E87DBB2F91606D4717455F3626 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1C38A4B0494A81D06160ED67E851DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7524D2D58BBD70E7AD2B9426C54DE906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A3F6065C3FA59726006FA75F6526B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAD5C5EBF456DF1168B6FDFC7FC8E35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F6D0DC0C3AA90D26EE1099504E2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67F3B8404E57B382D8671D1FB0028B0 /* Foundation.framework in Frameworks */,
+				9642E4117EA611DA313F047A3A094970 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B367CF959BDBA3F28CDA1ECE8C7ABBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC362B3A9684A28BD95FB3F2B2DFC44 /* CoreGraphics.framework in Frameworks */,
+				C6AB29089DB50F44BF8224A1F7AA45A7 /* Foundation.framework in Frameworks */,
+				6132DDECB5E70DF47A202258B011F387 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3BD0B325DD4214146DC9C998921F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96CAF78228E4BEFB77219F2389003D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945D904BEF8A4E91210D493B742D833D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FE5F12BD095E758EBB95D26F24F64A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				760AE21885469F2AAE5996814715EC0A /* KYMenu.modulemap */,
+				479D6440ACCDFE9E1E73EAE296530547 /* KYMenu.xcconfig */,
+				460AE777860864E5AF32316E92EA0198 /* KYMenu-dummy.m */,
+				5FD4DDB72AAF1AAA41BBDFE8270CB606 /* KYMenu-Info.plist */,
+				13E8245436C16C6F0088B3308F5941F7 /* KYMenu-prefix.pch */,
+				940A57B47E424CB538DD7F176D369EB4 /* KYMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYMenu";
+			sourceTree = "<group>";
+		};
+		19A2ED6BDB6C6368B0424B899D7FEC70 /* Presentr */ = {
+			isa = PBXGroup;
+			children = (
+				1695929F60B2B462C5CABB9657691F39 /* AlertViewController.swift */,
+				831BF3AEC5EDA14B819918CC4008D5B1 /* BackgroundView.swift */,
+				728D141300212B9AE09700F5577D1B13 /* CoverFromCornerAnimation.swift */,
+				6F556CAD3C33EB6E13BF94EBD94CA61E /* CoverHorizontalAnimation.swift */,
+				8362B51539A0CECCB9D99D62B007122C /* CoverVerticalAnimation.swift */,
+				D0BF073D3FFF14944174A027C7CD3ED7 /* CoverVerticalFromTopAnimation.swift */,
+				FCBB9BD6CFDE35A1CCEBF1E752161913 /* CrossDissolveAnimation.swift */,
+				1CD2BAC75F4B440FF0B73D27680B4B98 /* FlipHorizontalAnimation.swift */,
+				41380105745622D480BE76AB46983678 /* KeyboardTranslation.swift */,
+				7255F3AB35E82E0A1565BE5C506DE4BD /* ModalCenterPosition.swift */,
+				366A0BBD023237A56635256D554CBFB7 /* ModalSize.swift */,
+				78331773C562DCC62F107BE892703EA1 /* PresentationType.swift */,
+				DDC86D68BB8D287E0A24098486AD1378 /* Presentr.swift */,
+				082066E910A90372DA1ECA903AE6C08D /* Presentr+Equatable.swift */,
+				EA5C2567980CDF66B4464038BFC25EDC /* PresentrAnimation.swift */,
+				7DA819A2C97498203F9D64A87D2E6A84 /* PresentrController.swift */,
+				E26244DC7AB3C4B475069CC17898C553 /* PresentrShadow.swift */,
+				A157DDE1205ACFC4AD39D028CC924EC4 /* TransitionType.swift */,
+				B83F362B351734B812EBDCEA0FB09245 /* Resources */,
+				936C9136CE87622215AA8E8ECA411E7B /* Support Files */,
+			);
+			name = Presentr;
+			path = Presentr;
+			sourceTree = "<group>";
+		};
+		1C96CA0634BB3A26116020896075E55E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969B99D0CA7E69847AEC52C41B7C8FFB /* CollapsibleTableSectionViewController.framework */,
+				6EF0369C0BCE33C720E5BFFC4FE77EDD /* ESTabBarController_swift.framework */,
+				370EF7B07A1233B2E35DE4A0986AFE22 /* KYMenu.framework */,
+				FDEEE8A296A2524EDBC0507A6570FAFE /* M13Checkbox.framework */,
+				88CF7896D4A15441A6193F93EC5A7328 /* Pods_MorePractice.framework */,
+				03A79809A1F7931D7886D7C980E099D2 /* Presentr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE0D9CB47B569F47A6ED804472B048F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B62C82A3F0A5AB75629D15F13EBA02 /* CollapsibleTableSectionViewController.modulemap */,
+				6D08E772BE27600C20259AA82788D1B1 /* CollapsibleTableSectionViewController.xcconfig */,
+				1DD125D45BC8CDCDF2089E0E5F6BC243 /* CollapsibleTableSectionViewController-dummy.m */,
+				5A1EEFAAB0F6E56E73229DEADD00A342 /* CollapsibleTableSectionViewController-Info.plist */,
+				452CF91CF1AD4DBBD508E00FAD9BA5BB /* CollapsibleTableSectionViewController-prefix.pch */,
+				0F1A45B013B84E09360248F6CCD69901 /* CollapsibleTableSectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CollapsibleTableSectionViewController";
+			sourceTree = "<group>";
+		};
+		25CDC86BD1BC2A000832D07E6E3A0070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83234D34AEEB749B40F5A96D99E65 /* Pods-MorePractice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A5F2644D0CF9EA2B6B3D19D395EE256 /* ESTabBarController-swift */ = {
+			isa = PBXGroup;
+			children = (
+				11BDC74C728AC8D7195E522A35D39A97 /* ESTabBar.swift */,
+				938B32753342745B16A4D785D4AC9991 /* ESTabBarController.swift */,
+				1741ABA2F66D5C6071D2C5F64E230889 /* ESTabBarItem.swift */,
+				5E9CE232F1B41C6033E8253037379B12 /* ESTabBarItemBadgeView.swift */,
+				304DED4B8CDA21B96B48597A70646E94 /* ESTabBarItemContainer.swift */,
+				6785140B2E8E1BC53D2ED6557B6476B1 /* ESTabBarItemContentView.swift */,
+				B6F5BD717550B297A1851848FDC7D65D /* ESTabBarItemMoreContentView.swift */,
+				7E469CB387A1A0864C9DD8294F66B43B /* Resources */,
+				5D7E0C901634C636980C1A2985022A38 /* Support Files */,
+			);
+			name = "ESTabBarController-swift";
+			path = "ESTabBarController-swift";
+			sourceTree = "<group>";
+		};
+		2BE83234D34AEEB749B40F5A96D99E65 /* Pods-MorePractice */ = {
+			isa = PBXGroup;
+			children = (
+				0CF03A6BFFB045CD49C2F81FF7D37AD1 /* Pods-MorePractice.modulemap */,
+				06C72CBE1350219B5E4F832F7FDDC463 /* Pods-MorePractice-acknowledgements.markdown */,
+				B4364E65B4711E6BC96357E7863C77B5 /* Pods-MorePractice-acknowledgements.plist */,
+				8C8145F816755114D1CB31B88A5F2042 /* Pods-MorePractice-dummy.m */,
+				DFD29183A46C3AA36674D202CD497A66 /* Pods-MorePractice-frameworks.sh */,
+				765AB5C0028B7A6A0CDD83BCABC73382 /* Pods-MorePractice-Info.plist */,
+				6C35E357082D68209A03EE4FF016BFC0 /* Pods-MorePractice-umbrella.h */,
+				1D61DE1BB9EA08AEE471AB2A943157F9 /* Pods-MorePractice.debug.xcconfig */,
+				246A50D340C7D32700D833C2C13DC481 /* Pods-MorePractice.release.xcconfig */,
+			);
+			name = "Pods-MorePractice";
+			path = "Target Support Files/Pods-MorePractice";
+			sourceTree = "<group>";
+		};
+		5D7E0C901634C636980C1A2985022A38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE99BAAEFA010A62A5E43B671F361F7E /* ESTabBarController-swift.modulemap */,
+				F8D7EB9427C8F713618C9E9383857A18 /* ESTabBarController-swift.xcconfig */,
+				8ABEAC594DBEB57189B48A778DD88D4B /* ESTabBarController-swift-dummy.m */,
+				D9746A6051DBB340605A4ADCC01EB8B7 /* ESTabBarController-swift-Info.plist */,
+				A2F7191B9F5102693A283F6B95B17831 /* ESTabBarController-swift-prefix.pch */,
+				24F3E32A8BEC2F9FDC347FE5F3A6CAA4 /* ESTabBarController-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ESTabBarController-swift";
+			sourceTree = "<group>";
+		};
+		60CA754B9B05A7919453ADF2CCFE40F3 /* CollapsibleTableSectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB05CFC9F584779FA49FCA1F70BA23 /* CollapsibleTableSectionViewController.swift */,
+				FFBF2502179F075FC4D23AB4591160C0 /* CollapsibleTableViewHeader.swift */,
+				1EE0D9CB47B569F47A6ED804472B048F /* Support Files */,
+			);
+			name = CollapsibleTableSectionViewController;
+			path = CollapsibleTableSectionViewController;
+			sourceTree = "<group>";
+		};
+		7E469CB387A1A0864C9DD8294F66B43B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67C8A2CF36CC8225CAD5650E682E4C46 /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7EB109EC484672B7BA39DC018800F196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60CA754B9B05A7919453ADF2CCFE40F3 /* CollapsibleTableSectionViewController */,
+				2A5F2644D0CF9EA2B6B3D19D395EE256 /* ESTabBarController-swift */,
+				942BBEBE0D9C04E30B64838501FF1E8A /* KYMenu */,
+				CE66AEB49653AC2DAFC61501500C6224 /* M13Checkbox */,
+				19A2ED6BDB6C6368B0424B899D7FEC70 /* Presentr */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		936C9136CE87622215AA8E8ECA411E7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC554EA22C358A45798EA8E9030AD2D3 /* Presentr.modulemap */,
+				17736870BB87F32CAFEE6F90E1729A2A /* Presentr.xcconfig */,
+				F19CA9496DD89938CB94C230C0459C3E /* Presentr-dummy.m */,
+				FBF4D6637B7392AB9FBEF130D623D84B /* Presentr-Info.plist */,
+				371FF889CA5D38A2A34FC52CD7A54730 /* Presentr-prefix.pch */,
+				9016351B5126A5CE66E867E6860AA786 /* Presentr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Presentr";
+			sourceTree = "<group>";
+		};
+		942BBEBE0D9C04E30B64838501FF1E8A /* KYMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7D84D0FABDD306A6E34F9A0CC1876FE7 /* KYMenu.h */,
+				EF472C39E20E5CEE300A6EF48E220177 /* KYMenu.m */,
+				09FE5F12BD095E758EBB95D26F24F64A /* Support Files */,
+			);
+			name = KYMenu;
+			path = KYMenu;
+			sourceTree = "<group>";
+		};
+		945D904BEF8A4E91210D493B742D833D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */,
+				66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */,
+				92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C2191986334FBB8FCC72836910561EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B69E4C99CD847FAD998F7E8F6A9D0 /* M13Checkbox.modulemap */,
+				74B11219AB88F96BD9DCE72E8FAF4175 /* M13Checkbox.xcconfig */,
+				8AC5AFEED22953E6BB6EED520630A406 /* M13Checkbox-dummy.m */,
+				E9650A07CE7876B64E4395D31613CDFE /* M13Checkbox-Info.plist */,
+				1B4432923E369C86C4DC0C83AD379E7C /* M13Checkbox-prefix.pch */,
+				269B0B8EC76EDF47B19BB565CCC5899E /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		B83F362B351734B812EBDCEA0FB09245 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90065C72D88427053C79469E8981C1BA /* AlertViewController.xib */,
+				D091428B82C86B6031C66A6B669E794B /* Montserrat-Regular.ttf */,
+				490788C3256C3BF1AD11A820531CD6FC /* SourceSansPro-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE66AEB49653AC2DAFC61501500C6224 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				78BBF6EE04D05E6C6ADBBF77732645EF /* DefaultValues.swift */,
+				EC5772B20D18874F3CAECEC059E43469 /* M13Checkbox.swift */,
+				7BF20190DA09F07B3DF89CA3337DA3B7 /* M13Checkbox+IB.swift */,
+				3A83360996FC6B9D6E9CDCC7567BDC53 /* M13CheckboxAddRemovePathGenerator.swift */,
+				700C72873A482B45EDF79549356248EA /* M13CheckboxAnimationGenerator.swift */,
+				4041ED3AA14094A3E32E2317E529466C /* M13CheckboxBounceController.swift */,
+				086B88D6FA4825A46F83D69E08946960 /* M13CheckboxCheckPathGenerator.swift */,
+				95C7E7E5D50F3253DC04ADABBE193DDF /* M13CheckboxController.swift */,
+				58A622E057F091ED2F29365185214926 /* M13CheckboxDisclosurePathGenerator.swift */,
+				5119462DEA70163EBB0B56DDF93622D1 /* M13CheckboxDotController.swift */,
+				0EF5B8C7799E20AD2BF356B6BD0D70B0 /* M13CheckboxExpandController.swift */,
+				479CAADEB64A7E17FFF715372C49B7E5 /* M13CheckboxFadeController.swift */,
+				999EB4546466BF446B69C9419BBE0284 /* M13CheckboxFillController.swift */,
+				E098FA419D91112D38F52CA63ED64B56 /* M13CheckboxFlatController.swift */,
+				7A7E69B1A916DD46C2BFD5A7EC671580 /* M13CheckboxGestureRecognizer.swift */,
+				FF1B228FA8B163698F90F29277D83302 /* M13CheckboxPathGenerator.swift */,
+				123058115CDCEFCD843E0244D84C7B04 /* M13CheckboxRadioPathGenerator.swift */,
+				90F95A6E88185B59FF369016BDF77892 /* M13CheckboxSpiralController.swift */,
+				57C20C368C50E6F051C47052C78137F2 /* M13CheckboxStrokeController.swift */,
+				9C2191986334FBB8FCC72836910561EA /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				7EB109EC484672B7BA39DC018800F196 /* Pods */,
+				1C96CA0634BB3A26116020896075E55E /* Products */,
+				25CDC86BD1BC2A000832D07E6E3A0070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5409659B2256A5D4AA9BACFF4FC27107 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6AE55E64AD971BEAF62807357EBF6A /* ESTabBarController-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B566CA472DCE61FF63D6663647616BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2674501668A046CC3511B6F21939D /* Pods-MorePractice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7727737335261156EF881CFDD0D1DE6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7612EB6D64ACA96593AB5AD2BE0A7DD /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA6A786E218EC3F2B490256BFFDEC78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7F74A8152A3CA6E478C8183E6F37B /* KYMenu-umbrella.h in Headers */,
+				73E90878A7157B57BEF3D1759F3BF9B9 /* KYMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99F0EDD93F15ACF04B9E633F128AC88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EF9ADCCD5F7211BC2F7EA64AF2E724 /* Presentr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959A3A1C8363C65FC7D92B8493AD0FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8750EBD2F4A090BC7E719B3F65C3A5B /* CollapsibleTableSectionViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		068E160A88196B1414AE8C81CED03F68 /* Presentr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED06B0E544964F688EC3CC8EEB5306 /* Build configuration list for PBXNativeTarget "Presentr" */;
+			buildPhases = (
+				D99F0EDD93F15ACF04B9E633F128AC88 /* Headers */,
+				907B135BD0AE5871D51FDFADA0DDC8E7 /* Sources */,
+				4A1C38A4B0494A81D06160ED67E851DE /* Frameworks */,
+				DD4BF1EAEE129E12CAD1E1D26B7936A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presentr;
+			productName = Presentr;
+			productReference = 03A79809A1F7931D7886D7C980E099D2 /* Presentr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33291D2923185A1B2702434D8FA85285 /* KYMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19F6DEB7B477515E43A2C40B4DE62D /* Build configuration list for PBXNativeTarget "KYMenu" */;
+			buildPhases = (
+				7FA6A786E218EC3F2B490256BFFDEC78 /* Headers */,
+				9AB724F9A200D54CF61451A4FFEDEB7F /* Sources */,
+				95F6D0DC0C3AA90D26EE1099504E2F16 /* Frameworks */,
+				BAD0EA102D7F601B958431E5C04700CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYMenu;
+			productName = KYMenu;
+			productReference = 370EF7B07A1233B2E35DE4A0986AFE22 /* KYMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BD7CFC9FAF520FF3BBEC62E58C3A079 /* ESTabBarController-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C323A6E3DE5F0BBE86E6088D8AF455BB /* Build configuration list for PBXNativeTarget "ESTabBarController-swift" */;
+			buildPhases = (
+				5409659B2256A5D4AA9BACFF4FC27107 /* Headers */,
+				E2D29C139E0D0B480C2EC025F6B996A2 /* Sources */,
+				DB3BD0B325DD4214146DC9C998921F86 /* Frameworks */,
+				CF5B5D64E418A7EC9F1587DE9E0E7FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESTabBarController-swift";
+			productName = "ESTabBarController-swift";
+			productReference = 6EF0369C0BCE33C720E5BFFC4FE77EDD /* ESTabBarController_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5752DD257FE266E67107B3EEA49B03C9 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A9770054E3B9FBE08D34080F199BAE /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				7727737335261156EF881CFDD0D1DE6A /* Headers */,
+				A013165DACD7221FD8AA41B76C9C1074 /* Sources */,
+				B367CF959BDBA3F28CDA1ECE8C7ABBA7 /* Frameworks */,
+				BE9191F4C6FE81A1F5B2B2C7449A2BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = FDEEE8A296A2524EDBC0507A6570FAFE /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE807673112A40049DB014FCFEC4C9CF /* CollapsibleTableSectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E758B63731678F06833C37249C696193 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */;
+			buildPhases = (
+				F959A3A1C8363C65FC7D92B8493AD0FD /* Headers */,
+				51AF9AB0497B08CD7753254C6140D61B /* Sources */,
+				49935B515F26E1F17C25699C3AC7950A /* Frameworks */,
+				E738BCD584CD1D657591F67DC22C56B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableSectionViewController;
+			productName = CollapsibleTableSectionViewController;
+			productReference = 969B99D0CA7E69847AEC52C41B7C8FFB /* CollapsibleTableSectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7A8B1411258C77DBFE4CCA8165B6940 /* Pods-MorePractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69A7B08F453B13F4E5B89F88617F4AF /* Build configuration list for PBXNativeTarget "Pods-MorePractice" */;
+			buildPhases = (
+				5B566CA472DCE61FF63D6663647616BF /* Headers */,
+				284CE0F3F62DB1D75243F5C8B3A830B9 /* Sources */,
+				53A3F6065C3FA59726006FA75F6526B3 /* Frameworks */,
+				375D65C120F96950CA25357C241F2354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7681008708B1C356D8A2B125CA191D82 /* PBXTargetDependency */,
+				AE37BA725891552968F61094B66986AC /* PBXTargetDependency */,
+				42145208CD3AB5E7CCAED967C75464C8 /* PBXTargetDependency */,
+				E065C8E4CA32D88C7D1FC128B2F2F85E /* PBXTargetDependency */,
+				2C3E16776F7A253616E40D011CE027C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MorePractice";
+			productName = "Pods-MorePractice";
+			productReference = 88CF7896D4A15441A6193F93EC5A7328 /* Pods_MorePractice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1C96CA0634BB3A26116020896075E55E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE807673112A40049DB014FCFEC4C9CF /* CollapsibleTableSectionViewController */,
+				4BD7CFC9FAF520FF3BBEC62E58C3A079 /* ESTabBarController-swift */,
+				33291D2923185A1B2702434D8FA85285 /* KYMenu */,
+				5752DD257FE266E67107B3EEA49B03C9 /* M13Checkbox */,
+				F7A8B1411258C77DBFE4CCA8165B6940 /* Pods-MorePractice */,
+				068E160A88196B1414AE8C81CED03F68 /* Presentr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375D65C120F96950CA25357C241F2354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD0EA102D7F601B958431E5C04700CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9191F4C6FE81A1F5B2B2C7449A2BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5B5D64E418A7EC9F1587DE9E0E7FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAEBE2F33EC8260D7C26D3BD874860 /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4BF1EAEE129E12CAD1E1D26B7936A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE901F0B0C3C2E0126EADD94866ADF /* AlertViewController.xib in Resources */,
+				21C38071E7DDD5FD23546728FF6067EE /* Montserrat-Regular.ttf in Resources */,
+				CE84A0DE6848043BC3869AAABF8E1C81 /* SourceSansPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E738BCD584CD1D657591F67DC22C56B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284CE0F3F62DB1D75243F5C8B3A830B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9DAC9325B7541B811D4F09D534027 /* Pods-MorePractice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AF9AB0497B08CD7753254C6140D61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97E16462798F4E4962AB4C8D07E699E /* CollapsibleTableSectionViewController-dummy.m in Sources */,
+				F3588F07B6530A383545B538FB31003F /* CollapsibleTableSectionViewController.swift in Sources */,
+				429735F4B5A5D0C6E7F9E234A36C354A /* CollapsibleTableViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B135BD0AE5871D51FDFADA0DDC8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C20DF1DB2B4667069DC2C9BD2D51E1 /* AlertViewController.swift in Sources */,
+				7EA28BAB91C28416AF079D1BA154387C /* BackgroundView.swift in Sources */,
+				79A379E22EC1171A4D27F87AA93C7494 /* CoverFromCornerAnimation.swift in Sources */,
+				C6F341D5350E2D8BFE2D07E07D889705 /* CoverHorizontalAnimation.swift in Sources */,
+				07B5A174B0B4373D52EF8C66328DA36C /* CoverVerticalAnimation.swift in Sources */,
+				41CBD1ADAFFF6471BE891D15ED78BB5E /* CoverVerticalFromTopAnimation.swift in Sources */,
+				9E645E8FBF1D852E3F5A382B3CCA3C90 /* CrossDissolveAnimation.swift in Sources */,
+				4B0F7DABB7110455BB8F7F5C37A270F7 /* FlipHorizontalAnimation.swift in Sources */,
+				B22FA6187924DAD7AD7F386DDC61A097 /* KeyboardTranslation.swift in Sources */,
+				D9167552180D571CE9AB78AC9EF032FE /* ModalCenterPosition.swift in Sources */,
+				E6EB0666ED96F5ECF52BA5D532D7B442 /* ModalSize.swift in Sources */,
+				C694C6F696BDE2A3D20E07018D556B00 /* PresentationType.swift in Sources */,
+				82C4FAAE08D78F5AD0016C2CE54FBFE6 /* Presentr+Equatable.swift in Sources */,
+				E277DD8316D4D9369B0C8F1C974D071B /* Presentr-dummy.m in Sources */,
+				A1BED5C6A5B369F228A95A53116A28DE /* Presentr.swift in Sources */,
+				7812FF081ECD2D44CAAC04E164B9ABDE /* PresentrAnimation.swift in Sources */,
+				D2DE0B03765B1DC0E38E0837F2ECDA96 /* PresentrController.swift in Sources */,
+				1FCA582D4D82A9DE254643294D070EA4 /* PresentrShadow.swift in Sources */,
+				6C766C89C6EFD2963D5D2BE589B3021C /* TransitionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB724F9A200D54CF61451A4FFEDEB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75037F89FB50C1B23C99E5107A2D6E79 /* KYMenu-dummy.m in Sources */,
+				CBDF47D0EEACE5D10619404D138ECB32 /* KYMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A013165DACD7221FD8AA41B76C9C1074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD3585AC53DFF65A6EC447C5959F12C /* DefaultValues.swift in Sources */,
+				396466E86C0EBEA41FB87230AF5FD3FF /* M13Checkbox+IB.swift in Sources */,
+				14F212386585118EBACAD3E2E087AA9E /* M13Checkbox-dummy.m in Sources */,
+				917AA0DAADA5D2DAB1F8134CD893618B /* M13Checkbox.swift in Sources */,
+				83ECD7BBB76510F75FBCD71CE2D68615 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				9AD538F13A135428124FCFC745463426 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				248FA66AF24DD68A917323A0964C7ACD /* M13CheckboxBounceController.swift in Sources */,
+				23F46ECFE2E9000D74E7C09EB31A40B8 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				40628F0AB93C74115A9A753A359B7799 /* M13CheckboxController.swift in Sources */,
+				DE7654FD8D8E83DCBCD916FF8B48AAF7 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				4F1B28FEA34062EC5F2B03C468C3F90D /* M13CheckboxDotController.swift in Sources */,
+				A1558C87BF159FF5DFE1E10772A93522 /* M13CheckboxExpandController.swift in Sources */,
+				5122ADF16A57C1EC749DEE6B24788CF1 /* M13CheckboxFadeController.swift in Sources */,
+				D5E0D00C64622A75DCC53EC52853A148 /* M13CheckboxFillController.swift in Sources */,
+				E5AA37D0DCE99073503B06AAC4BFB3F8 /* M13CheckboxFlatController.swift in Sources */,
+				2E2A73CBD78C1442FF7F2535A31D1C8D /* M13CheckboxGestureRecognizer.swift in Sources */,
+				871C1206BD2FC67D628F280FC2313B16 /* M13CheckboxPathGenerator.swift in Sources */,
+				C4EBFC45EF9A34311A2FC271603F68A6 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				E8FC575E9A135224C45815B5B12A1F60 /* M13CheckboxSpiralController.swift in Sources */,
+				ECEDE2975437697018E4960684EFBAFE /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D29C139E0D0B480C2EC025F6B996A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66FF1706CE041A88BCE01C7C1D78C43 /* ESTabBar.swift in Sources */,
+				2E97F4DDE05C97F41DA2B85D82A31912 /* ESTabBarController-swift-dummy.m in Sources */,
+				E5694861E9242B18FC619B1041BBCB46 /* ESTabBarController.swift in Sources */,
+				351E76A17B83C7BEB68B00E7817AC0FA /* ESTabBarItem.swift in Sources */,
+				1A6F6B694103274344F27631FCE6F5D0 /* ESTabBarItemBadgeView.swift in Sources */,
+				C612E13D3CA85870FE9D32D47A1A41CB /* ESTabBarItemContainer.swift in Sources */,
+				5A57F3E6E3DB86834095410FD4F8BFEE /* ESTabBarItemContentView.swift in Sources */,
+				B300BBC681EB779EE37206B65806A7A5 /* ESTabBarItemMoreContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C3E16776F7A253616E40D011CE027C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentr;
+			target = 068E160A88196B1414AE8C81CED03F68 /* Presentr */;
+			targetProxy = E4D41D601D725772E7C244FBD9D1FA65 /* PBXContainerItemProxy */;
+		};
+		42145208CD3AB5E7CCAED967C75464C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYMenu;
+			target = 33291D2923185A1B2702434D8FA85285 /* KYMenu */;
+			targetProxy = F248F3AA839A678BFAA28CFB0F766DD1 /* PBXContainerItemProxy */;
+		};
+		7681008708B1C356D8A2B125CA191D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollapsibleTableSectionViewController;
+			target = CE807673112A40049DB014FCFEC4C9CF /* CollapsibleTableSectionViewController */;
+			targetProxy = FA850D28D6A666651C63B37890291AD0 /* PBXContainerItemProxy */;
+		};
+		AE37BA725891552968F61094B66986AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESTabBarController-swift";
+			target = 4BD7CFC9FAF520FF3BBEC62E58C3A079 /* ESTabBarController-swift */;
+			targetProxy = 0B6D5972890DF957334AA59C29ACC0D1 /* PBXContainerItemProxy */;
+		};
+		E065C8E4CA32D88C7D1FC128B2F2F85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 5752DD257FE266E67107B3EEA49B03C9 /* M13Checkbox */;
+			targetProxy = 54A2C8E67B95E53972B4C768E4B3C4D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004F4556F39439F84B1680B118086321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479D6440ACCDFE9E1E73EAE296530547 /* KYMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYMenu/KYMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYMenu/KYMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYMenu/KYMenu.modulemap";
+				PRODUCT_MODULE_NAME = KYMenu;
+				PRODUCT_NAME = KYMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33E58275CB97BF037104FCA5CE11DB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D7EB9427C8F713618C9E9383857A18 /* ESTabBarController-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift.modulemap";
+				PRODUCT_MODULE_NAME = ESTabBarController_swift;
+				PRODUCT_NAME = ESTabBarController_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E59DBBF345BC5337520BDA0722AE7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B11219AB88F96BD9DCE72E8FAF4175 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		662B6F87F597CC616E6B7777518CA12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D08E772BE27600C20259AA82788D1B1 /* CollapsibleTableSectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableSectionViewController;
+				PRODUCT_NAME = CollapsibleTableSectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85424E0D6B964E22232D2EE19331147F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17736870BB87F32CAFEE6F90E1729A2A /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Presentr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DDC52E4D6392DCEBDBEBD8C18C393AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479D6440ACCDFE9E1E73EAE296530547 /* KYMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYMenu/KYMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYMenu/KYMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYMenu/KYMenu.modulemap";
+				PRODUCT_MODULE_NAME = KYMenu;
+				PRODUCT_NAME = KYMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		924BD0C2B288E48A99EB3997699462F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D61DE1BB9EA08AEE471AB2A943157F9 /* Pods-MorePractice.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MorePractice/Pods-MorePractice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorePractice/Pods-MorePractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0DEB11B8F7DF54F9A36A3015F25790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B11219AB88F96BD9DCE72E8FAF4175 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8119E7D5D2909D7F32BC0164EEA6906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246A50D340C7D32700D833C2C13DC481 /* Pods-MorePractice.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MorePractice/Pods-MorePractice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorePractice/Pods-MorePractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3B8CC14ADECD038897AC9FFB5244C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D08E772BE27600C20259AA82788D1B1 /* CollapsibleTableSectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableSectionViewController;
+				PRODUCT_NAME = CollapsibleTableSectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5361F5783EC12642212D297719EAF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D7EB9427C8F713618C9E9383857A18 /* ESTabBarController-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift.modulemap";
+				PRODUCT_MODULE_NAME = ESTabBarController_swift;
+				PRODUCT_NAME = ESTabBarController_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD064486C4AFF0220AE93DBAD7A70E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17736870BB87F32CAFEE6F90E1729A2A /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Presentr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D19F6DEB7B477515E43A2C40B4DE62D /* Build configuration list for PBXNativeTarget "KYMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDC52E4D6392DCEBDBEBD8C18C393AD /* Debug */,
+				004F4556F39439F84B1680B118086321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED06B0E544964F688EC3CC8EEB5306 /* Build configuration list for PBXNativeTarget "Presentr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD064486C4AFF0220AE93DBAD7A70E47 /* Debug */,
+				85424E0D6B964E22232D2EE19331147F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A9770054E3B9FBE08D34080F199BAE /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E59DBBF345BC5337520BDA0722AE7D7 /* Debug */,
+				B0DEB11B8F7DF54F9A36A3015F25790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C323A6E3DE5F0BBE86E6088D8AF455BB /* Build configuration list for PBXNativeTarget "ESTabBarController-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E58275CB97BF037104FCA5CE11DB61 /* Debug */,
+				F5361F5783EC12642212D297719EAF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E758B63731678F06833C37249C696193 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B8CC14ADECD038897AC9FFB5244C77 /* Debug */,
+				662B6F87F597CC616E6B7777518CA12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69A7B08F453B13F4E5B89F88617F4AF /* Build configuration list for PBXNativeTarget "Pods-MorePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924BD0C2B288E48A99EB3997699462F9 /* Debug */,
+				B8119E7D5D2909D7F32BC0164EEA6906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
